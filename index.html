@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(39, 39, 165);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: red;
+        font-size: 1.4rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 0px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5vw 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+      .rightsection {
+      }
+      .purple {
+        color: rgb(12, 245, 12);
+      }
+      #element {
+        color: rgb(12, 245, 12);
+      }
+      .secondsection {
+        height: 80vh;
+        margin: auto;
+      }
+      .secondsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 5px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 450px;
+        width: 1px;
+        background-color: white;
+        margin: 0 435px;
+      }
+      .secondsection h1 {
+        font-size: 1.8rem;
+      }
+      .image-top {
+        width: 55px;
+        position: relative;
+        top: -45px;
+        left: -50px;
+      }
+      .vertical {
+        position: relative;
+        top: -5px;
+        width: 250px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 5px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: left;
+        top: 130px;
+        color: grey;
+        width: 250px;
+        font-size: 17px;
+      }
+      .footer {
+        background-color: rgb(38, 10, 38);
+        height: 233px;
+        text-align: center; 
+      }
+      .footer-rights {
+        text-align: center;
+      }
+      .buttons{
+        font-size:25px;
+      }
+      .buttons button:hover{
+        color:red;
+        font-size:1.4rem;
+      }
+      .footer ul li a{
+        color:white;
+      }
+      .footer ul li a:hover{
+        color:yellow;
+      }
+      a{
+        color:white;
+        text-align:left;
+        font-size:18px;
+      }
+      a:hover{
+        color:red; 
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rohit's portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li>
+            <a
+              href="index.html">Home</a>
+          </li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Skills.html">Skills</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="contact_me.html">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,My name is <span class="purple">Rohit.</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <br>
+          <br>
+          <a href="resume.html">View Resume</a>
+        </div>
+        <div class="rightsection">
+          <img src="OIP.jpeg" height="500px" width="500px" />
+        </div>
+      </section>
+      <section class="secondsection">
+        <br />
+        <br />
+        <hr />
+        <h1>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work
+          Experience
+        </h1>
+        <hr />
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" />
+            <div class="vertical-title">Fullstack java developer at Cravita technologies(07/2023-02/2024)</div>
+            <div class="vertical-desc">
+              <br>
+              My role is fullstack java developer.I built a project titled "Online Pilgrimage system" using core java,swing and MySQL.
+              The aim of this project is to facilitate the booking process of the travellers.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <h3>Rohit's developer portfolio</h3>
+        <br>
+      <ul>
+        <li><a href="About.html">About</a></li>
+        <br>
+        <li><a href="Skills.html">Skills</a></li>
+        <br>
+        <li><a href="Projects.html">Projects</a></li>
+        <br>
+        <li><a href="contact_me.html">Contact me</a></li>
+      </ul>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169 www.rohitsportfolio.online | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web developer", "SQL developer", "Java developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
